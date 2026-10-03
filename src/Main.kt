@@ -31,5 +31,5 @@ fun main() {
     val isAdult: Boolean = true
     val hasTicket: Boolean = false
 
-    println("Можно ли войти: ${"isAdult $$ hasTiket"}")
+    println("Можно ли войти: ${isAdult && hasTicket}")
     }
