@@ -32,4 +32,15 @@ fun main() {
     val hasTicket: Boolean = false
 
     println("Можно ли войти: ${isAdult && hasTicket}")
-    }
+
+    println("Добро пожаловать в конвертер")
+
+    println("Введите сумму в рублях (RUB): ")
+    val rubles = readln().toDouble()
+
+    println("Введите температуру в градусах Цельсия: ")
+    val celsius = readln().toDouble()
+
+    println("Это ${rubles/90.0} долларов.")
+    println("Это ${(celsius * 9 / 5) + 32} градусов по Фаренгейту")
+}
